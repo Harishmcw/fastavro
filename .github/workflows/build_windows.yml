@@ -34,7 +34,7 @@ jobs:
           - os: windows-11-arm
             py: 3.9
           - os: windows-11-arm
-            py: pypi-3.11
+            py: pypy-3.11
     steps:
       - name: Setup Python for test ${{ matrix.py }}
         uses: actions/setup-python@v6
